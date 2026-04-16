@@ -9,7 +9,7 @@ fn an_empty_string() {
 }
 
 #[test]
-#[ignore]
+// #[ignore]
 fn a_word() {
     let input = "robot";
     let output = reverse(input);
@@ -18,7 +18,7 @@ fn a_word() {
 }
 
 #[test]
-#[ignore]
+// #[ignore]
 fn a_capitalized_word() {
     let input = "Ramen";
     let output = reverse(input);
@@ -27,7 +27,7 @@ fn a_capitalized_word() {
 }
 
 #[test]
-#[ignore]
+// #[ignore]
 fn a_sentence_with_punctuation() {
     let input = "I'm hungry!";
     let output = reverse(input);
@@ -36,7 +36,7 @@ fn a_sentence_with_punctuation() {
 }
 
 #[test]
-#[ignore]
+// #[ignore]
 fn a_palindrome() {
     let input = "racecar";
     let output = reverse(input);
@@ -45,7 +45,7 @@ fn a_palindrome() {
 }
 
 #[test]
-#[ignore]
+// #[ignore]
 fn an_even_sized_word() {
     let input = "drawer";
     let output = reverse(input);
@@ -54,7 +54,7 @@ fn an_even_sized_word() {
 }
 
 #[test]
-#[ignore]
+// #[ignore]
 fn wide_characters() {
     let input = "子猫";
     let output = reverse(input);
